@@ -1,7 +1,7 @@
 # quotesapp
 
 A new Flutter project.
-
+![Drag Racing](https://github.com/Lobana-sky/quoteCardFlutter/blob/main/assets/awesome_quote.png)
 ## Getting Started
 
 This project is a starting point for a Flutter application.
