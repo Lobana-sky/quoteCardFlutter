@@ -33,16 +33,15 @@ class _QuoteListState extends State<QuoteList> {
         backgroundColor: Colors.redAccent,
       ),
       body: Column(
-        children: quotes.map((quote) {
-          return QuoteCard(
+        children: quotes.map((quote) => QuoteCard(
             quote,
             () {
               setState(() {
                 quotes.remove(quote); 
               });
             }
-            );
-        }).toList(),
+            ),
+        ).toList(),
       )
     );
   }
